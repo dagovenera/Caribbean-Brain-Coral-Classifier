@@ -1,12 +1,5 @@
-# =========================================================================
-#   CARIBBEAN BRAIN CORAL CLASSIFIER - PRODUCTION REQUIREMENTS
-# Optimized for Streamlit Cloud Deployment & CPU-Inference Bounds
-# =========================================================================
-streamlit>=1.35.0
-tensorflow-cpu>=2.16.1
-keras>=3.0.0
-numpy>=1.24.0
-pandas>=2.0.0
-Pillow>=10.0.0
-joblib>=1.3.0
-scikit-learn>=1.3.0
+streamlit
+tensorflow-cpu
+joblib
+Pillow
+numpy
