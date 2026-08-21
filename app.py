@@ -8,6 +8,12 @@ from tensorflow.keras.applications import VGG16
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Flatten, BatchNormalization, Dropout, Input
 
+st.set_page_config(
+    page_title="Caribbean Brain Coral ID",
+    page_icon="🌊",
+    layout="wide",
+)
+
 # find current directory and saves full path of trained model weights
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 WEIGHTS_FILENAME = "brain_coral_weights.pkl"
