@@ -104,3 +104,15 @@ if uploaded_file is not None:
 
 else:
     st.info("Please upload an image to get an ID.")
+
+
+# ==========================================
+#         FOOTER PORTFOLIO ANCHOR
+# ==========================================
+st.write("---")
+st.caption(
+    """
+    Designed and engineered by **Dagoberto Venera-Ponton, PhD**.  
+    Open-source code available on [GitHub](https://github.com/dagovenera/Caribbean-Brain-Coral-Classifier.git).
+    """
+)
